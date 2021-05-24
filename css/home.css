@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Mandali&family=Reggae+One&display=swap");
+@import url(./question.css);
+
+body {
+  text-align: center;
+  font-family: "Balsamiq Sans", cursive;
+  letter-spacing: 1px;
+}
+
+section {
+  border-radius: 20px;
+  border: #ff7aa2 4px solid;
+  padding: 10px;
+  max-width: 1000px;
+  margin: 60px 20px;
+}
+
+section img {
+  width: 120px;
+}
+
+h1 {
+  font-size: 50px;
+  font-family: "Reggae One", cursive;
+}
+
+p {
+  color: rgb(110, 102, 102);
+}
+
+strong {
+  display: block;
+  margin: 10px;
+}
+
+#play {
+  padding: 10px;
+  border: none;
+  width: 200px;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #ff006e;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 50px;
+  font-family: "Reggae One", cursive;
+}
+
+.block {
+  display: block;
+}
+
+@media screen and (min-width: 1000px) {
+  section {
+    max-width: 800px;
+    margin: 50px auto;
+  }
+}
